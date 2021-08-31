@@ -6,8 +6,7 @@ Write out the 5 RESTful routes from the curriculum that correspond to the 4 CRUD
 
    * What SQL (if applicable) would be fired in the controller actions for each of the routes?
    * Why might it be important that routes and resources have a conventional structure?
-   * Which routes would you `render` a view and for which would you `redirect to` another route? Why?
-
+   
 2. Let's say you have built an app that is a blogging platform. You have a Post and an Author model and you have controllers and routes for the CRUD actions of each model. You sit down at your computer and visit www.youramazingrailsblog.com/posts:
 
    * What kind of web request is this making? (i.e. is it a `GET`, `POST`, etc request?)
