@@ -8,17 +8,17 @@ class Book(models.Model):
     
     @app.route('/books')
     def get(self):
-        #SELECT * FROM Books
+        #SELECT * FROM Books WHERE id = :id
         pass
 
     @app.route('/books')
     def post(self):
-        #CREATE INDEX index_name ON table_name (column_name)
+        #INSERT INTO books (column) VALUES (values)
         pass
     
     @app.route('/books/<int:id>')
     def patch(self):
-        #UPDATE Books SET column_name
+        #UPDATE Books SET column_name = value WHERE id = :id
         pass
     
     @app.route('/books/<int:id>')
