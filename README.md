@@ -14,3 +14,5 @@ Write out the 5 RESTful routes from the curriculum that correspond to the 4 CRUD
    * What is the response that your Flask app will send back to the client, i.e. the browser?
 
 3. Spend a few minutes mapping out a domain model for a parking lot. How would you model the relationship between cars and spaces? How would you keep track of how long a car had been parked in a space? How would you keep track of how much money someone would need to pay for having parked a certain amount of time?
+
+they would need to calculate the cost per hour and multiply it by the total time spent for the car
